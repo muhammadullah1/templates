@@ -17,8 +17,9 @@ export const BASE_CALENDAR_URL =
  * Note that this is a custom Environment Variable that can be defined by us when necessary
  */
 export const SHARED_CALENDAR_KEY =
-  process.env.NEXT_PUBLIC_SHARED_CALENDAR_KEY ||
-  'AIzaSyBNlYH01_9Hc5S1J9vuFmu2nUqBZJNAXxs';
+  process.env.NEXT_PUBLIC_SHARED_CALENDAR_KEY;
+  // ||
+  //'AIzaSyBNlYH01_9Hc5S1J9vuFmu2nUqBZJNAXxs';
 
 /**
  * This is Node.js's Public Google Calendar ID used for all public entries from Node.js Calendar
